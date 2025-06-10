@@ -1,0 +1,28 @@
+{
+  "name": "Node.js",
+  "dockerComposeFile": "./docker-compose.yml",
+  "service": "bookshelf-ui",
+  "workspaceFolder": "/workspaces/appDistribuidos-main",
+  "shutdownAction": "stopCompose",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "PulkitGangwar.nextjs-snippets",
+        "vscodeshift.mui-snippets",
+        "ms-azuretools.vscode-docker",
+        "dbaeumer.vscode-eslint"
+      ],
+      "settings": {
+        "workbench.colorTheme": "Default Light+"
+      }
+    }
+  },
+  "forwardPorts": [3000],
+  "portsAttributes": {
+    "3000": {
+      "label": "Next.js App",
+      "protocol": "http"
+    }
+  },
+  "postStartCommand": "cd /workspaces/appDistribuidos-main/bookshelf-ui && echo '¡Contenedor listo!'"
+}
