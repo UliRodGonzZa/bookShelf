@@ -10,7 +10,7 @@ A web-based application for managing tasks and projects, developed using React a
 
 ---
 
-## Screenshot
+## Screenshot of the Sign Up 
 
 ![App Screenshot](/screenshot.png)
 
