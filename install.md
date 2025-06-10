@@ -1,8 +1,3 @@
-# Task & Project Manager Web App
-
-A web-based application for managing tasks and projects, created to experiment with the Material UI component library and developed using JSX and React.
-
----
 
 ## Installation
 
